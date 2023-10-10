@@ -1,7 +1,7 @@
 /**
  * Un buen caso para usar switch
  *
- * Queremos escribir un script que, dado un mes del año, nos diga en que trimestre nos encomtramos.
+ * Queremos escribir un script que, dado un mes del año, nos diga en que trimestre nos encontramos.
  *
  * Por ejemplo, si mes = 4, deberíamos mostrar por el terminal "Nos encontramos en el segundo trimestre"
  *
@@ -12,3 +12,28 @@
 let mes = 4;
 
 // Escribir tu código a partir de aquí
+switch (mes) {
+  case 1:
+  case 2:
+  case 3:
+    console.log("Primer trimestre");
+    break;
+  case 4:
+  case 5:
+  case 6:
+    console.log("Segundo trimestre");
+    break;
+  case 7:
+  case 8:
+  case 9:
+    console.log("Tercero trimestre");
+    break;
+  case 10:
+  case 11:
+  case 12:
+    console.log("Cuarto trimestre");
+    break;
+  default:
+    console.log("Mes introducido no existe.");
+    break;
+}

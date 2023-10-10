@@ -3,6 +3,10 @@
  * que muestre por el terminal el mensaje "Yo también estoy en un bucle!" ; un total de 20 veces
  */
 
+for (let i = 0; i < 20; i++) {
+    console.log("Yo también estoy en un bucle!" + i);
+  }
+
 /**
  * Resultado esperado: https://oscarm.tinytake.com/msc/ODc4MzU2M18yMjIwMzc5Ng
  */
